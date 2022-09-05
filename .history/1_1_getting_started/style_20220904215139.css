@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to right, pink, lavender);
+    font-family: 'Azeret Mono', monospace;
+    font-size: 16px;
+    padding: 1em;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+div {
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0.25em 0;
+    text-shadow: 5px 5px 0px white;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 0.25em 0;
+}
+
+p {
+    font-size: 1em;
+    color: black;
+}
