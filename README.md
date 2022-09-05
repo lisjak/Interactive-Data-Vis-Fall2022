@@ -8,9 +8,9 @@ After all [installations](./1_1_getting_started/1_INSTALL.md), [git setup](./1_1
 
 Code for each tutorial will be released on the week that we cover that topic. The demo code that will help in the tutorial **will be pushed to a `demo` branch**. The class code **will be pushed to a `class` branch**.
 
-| Section | Tutorial | Topic | Starter Code | Demo Code | Class Code |
-| ------ | ------ | ----- | ------ | ----- | ----- |
-| Section 1 | Tutorial 1 | Getting Started | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_1_getting_started) | `/tree/demo` | `/tree/class`
+| Section | Tutorial | Topic | Starter Code | Demo Code | Class Code | Tutorial
+| ------ | ------ | ----- | ------ | ----- | ----- | ----- | ---- |
+| Section 1 | Tutorial 1 | Getting Started | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_1_getting_started) | `/tree/demo` | `/tree/class` | [Tutorial 1.1](lisjak.github.io/Interactive-Data-Vis-Fall2022/1_1_getting_started)
   | Section 1 | Tutorial 2 | Basic HTML | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_2_basic_html) | `/tree/demo` | `/tree/class`
 | Section 1 | Tutorial 3 | Intro to JS | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_3_intro_to_js) | `/tree/demo` | `/tree/class`
 | Section 2 | Tutorial 1 | Quantities and Amounts | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/2_1_quantities_and_amounts) | `/tree/demo` | `/tree/class`
