@@ -12,8 +12,8 @@ Code for each tutorial will be released on the week that we cover that topic. Th
 | Section | Tutorial | Topic | Starter Code | Demo Code | Class Code | Tutorial |
 | ------ | ------ | ----- | ------ | ----- | ----- | ----- |
 | Section 1 | Tutorial 1 | Getting Started | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_1_getting_started) | `/tree/demo` | `/tree/class` | [Tutorial 1.1](https://lisjak.github.io/Interactive-Data-Vis-Fall2022/1_1_getting_started) |
-| Section 1 | Tutorial 2 | Basic HTML | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_2_basic_html) | `/tree/demo` | `/tree/class` | [Tutorial 1.2](https://lisjak.github.io/Interactive-Data-Vis-Fall2022/1_1_getting_started) |
-| Section 1 | Tutorial 3 | Intro to JS | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_3_intro_to_js) | `/tree/demo` | `/tree/class`
+| Section 1 | Tutorial 2 | Basic HTML | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_2_basic_html) | `/tree/demo` | `/tree/class` | [Tutorial 1.2](https://lisjak.github.io/Interactive-Data-Vis-Fall2022/1_2_basic_html) |
+| Section 1 | Tutorial 3 | Intro to JS | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/1_3_intro_to_js) | `/tree/demo` | `/tree/class` | [Tutorial 1.3](https://lisjak.github.io/Interactive-Data-Vis-Fall2022/1_3_intro_to_js) |
 | Section 2 | Tutorial 1 | Quantities and Amounts | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/2_1_quantities_and_amounts) | `/tree/demo` | `/tree/class`
 | Section 2 | Tutorial 2 | Distributions | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/2_2_distributions) | `/tree/demo` | `/tree/class`
 | Section 2 | Tutorial 3 | Timeseries | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/2_3_time_series) | `/tree/demo` | `/tree/class`
