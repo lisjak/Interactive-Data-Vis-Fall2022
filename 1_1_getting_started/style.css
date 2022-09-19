@@ -11,6 +11,7 @@ div {
     align-items: center;
     justify-content: center;
     border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 2%;
     margin: 5%;
     box-shadow: 10px 10px 0px rgb(0 0 0 / 0.1);
@@ -18,7 +19,7 @@ div {
 }
 
 div:hover {
-    border: 5px solid white;
+    border: 1px solid hotpink;
     transition: 0.5s;
     box-shadow: 10px 10px 0px rgb(0 0 0 / 0.2);
 }
