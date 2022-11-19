@@ -1,19 +1,54 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  padding: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-top: 1%;
 }
 
 h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
+    font-size: 3em;
+    margin: 0.25em 0;
 }
 
 h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+    font-size: 2em;
+    margin: 0.25em 0;
 }
 
 p {
-  font-size: 1em;
+    font-size: 1em;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 1%;
+    paddding-bottom: -5%;
+    margin-bottom: -5%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-top: 1%;
 }
