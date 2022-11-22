@@ -4,6 +4,7 @@
 INSTRUCTIONS:
 Use this markdown file to keep track of open questions/challenges from this week's assignment.
 - What did you have trouble solving?
+can't figure out how to clip path on bottom of area chart
 - What went easier than expected?
 - What, if anything, is currently blocking you?
 
