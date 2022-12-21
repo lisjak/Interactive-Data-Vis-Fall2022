@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    padding: 1em;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+b {
+    font-weight: 900;
+    color: red;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5em;
+    margin: 0.25em 0;
+    color: red;
+    border-bottom: 0.25em solid black;
+}
+
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.25em;
+    margin: 0.25em 0;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3em;
+    margin: 0.25em 0;
+    color: red;
+    /* background-color: black; */
+    border-bottom: 0.25em solid black;
+    /*  border-top: 0.25em solid black; */
+    padding: 0.5%;
+    margin-bottom: 2%;
+    letter-spacing: 0.11em;
+}
+
+h4 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2.5em;
+    margin: 0.25em 0;
+    color: black;
+    /* background-color: black; */
+    /* border-bottom: 0.25em solid black; */
+    /*  border-top: 0.25em solid black; */
+    padding: 0.5%;
+    margin-bottom: 2%;
+}
+
+#title {
+    margin-bottom: 5%;
+    border-bottom: 1em solid red;
+}
+
+.infobox {
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 red;
+    margin-bottom: 2.5%;
+    padding: 1%;
+}
+
+#maptogether {
+    display: flex;
+    flex-direction: row;
+}
+
+#maptext {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+img {
+    width: 70%;
+    border: 1px solid grey;
+    padding: 1%;
+}
+
+.pic {
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 2%;
+}
+
+.pic p {
+    text-align: center;
+}
+
+
+}
