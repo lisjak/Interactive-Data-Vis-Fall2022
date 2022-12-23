@@ -17,9 +17,10 @@ Starter code for each of the tutorials is located on the `/main` branch, whereas
 | Section 2 | Tutorial 4 | Geographic | [/tree/main](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2022/tree/main/2_4_geographic) | `/tree/demo` | `/tree/class`| [Tutorial 2.4](https://lisjak.github.io/Interactive-Data-Vis-Fall2022/2_4_geographic) |
 
 ## Final Project
+[![Project screenshot](https://github.com/lisjak/Interactive-Data-Vis-Fall2022/blob/main/proj.png)](https://lisjak.github.com/Interactive-Data-Vis-Fall2022/999_final_project)
 
-| Topic | Code | Live link | Starter Code | Demo Code | Class Code | Tutorial | Revisted Tutorial
-| ------ | ------ | ----- | ------ | ----- | ----- | ----- | ----- |
-| Final Project | [Code](https://lisjak.github.com/Interactive-Data-Vis-Fall2022/999_final_project) | [Live Link](https://lisjak.github.io/Interactive-Data-Vis-Fall2022/999_final_project) |
+| Topic &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Code &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Live link &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+| ------ | ------ | ----- 
+| Final Project | [Code](https://github.com/lisjak/Interactive-Data-Vis-Fall2022/tree/main/999_final_project) | [Live link](https://lisjak.github.io/Interactive-Data-Vis-Fall2022/999_final_project) |
 
 This project is a narrative exploration exploring the intersection of gentrification and immigrant community in Greenpoint, Brooklyn. Project goals and technical information regarding the data analysis and visualization are located on the live site as well.
