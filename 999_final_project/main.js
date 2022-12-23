@@ -103,7 +103,63 @@ d3.csv('../data/LEPpopulation.csv', d => {
         .attr("y", margin / 2)
         .style("text-anchor", "middle")
         .text("Population");
-});
+        // BUTTON
+
+        function updatePath() {
+            svg.select("path")
+                .interrupt()
+
+
+            svg.selectAll("path")
+                .data(groupedData)
+                .join("path")
+                .attr('class', 'line')
+                .attr("d", ([neighborhood, data]) => line(data))
+                .attr("class", ([neighborhood, data]) => neighborhood)
+                .attr("stroke", "red")
+                .attr("stroke-width", "2")
+                .attr("fill", "none")
+            const pathLength = path.node().getTotalLength();
+
+            const transitionPath = d3
+                .transition()
+                .ease(d3.easeSin)
+                .duration(5000);
+
+            path
+                .attr("stroke-dashoffset", pathLength)
+                .attr("stroke-dasharray", pathLength)
+                .transition(transitionPath)
+                .attr("stroke-dashoffset", 0)
+
+            // AXES INFO
+            const xAxis = d3.axisBottom(xScale);
+            const yAxis = d3.axisLeft(yScale);
+
+            // AXES LINES
+            svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(40," + (height - margin * 2) + ")")
+                .call(xAxis)
+                .selectAll("text")
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", ".15em")
+                .attr("transform", "rotate(-30)");
+
+            svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(" + margin * 3 + ",0)")
+                .call(yAxis)
+        }
+
+
+        // Update chart when button is clicked
+        d3.selectAll(".button1").on("click", () => {
+            updatePath();
+        });
+
+    });
 
 // LINE GRAPH 2 =========================================
 //LOAD DATA
@@ -202,7 +258,65 @@ d3.csv('../data/nativeUSPopulation.csv', d => {
         .attr("y", margin / 2)
         .style("text-anchor", "middle")
         .text("Population");
-});
+
+        // BUTTON
+
+        function updatePath() {
+            svg.select("path")
+                .interrupt()
+
+
+            svg.selectAll("path")
+                .data(groupedData)
+                .join("path")
+                .attr('class', 'line')
+                .attr("d", ([neighborhood, data]) => line(data))
+                .attr("class", ([neighborhood, data]) => neighborhood)
+                .attr("stroke", "red")
+                .attr("stroke-width", "2")
+                .attr("fill", "none")
+            const pathLength = path.node().getTotalLength();
+
+            const transitionPath = d3
+                .transition()
+                .ease(d3.easeSin)
+                .duration(5000);
+
+            path
+                .attr("stroke-dashoffset", pathLength)
+                .attr("stroke-dasharray", pathLength)
+                .transition(transitionPath)
+                .attr("stroke-dashoffset", 0)
+
+            // AXES INFO
+            const xAxis = d3.axisBottom(xScale);
+            const yAxis = d3.axisLeft(yScale);
+
+            // AXES LINES
+            svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(40," + (height - margin * 2) + ")")
+                .call(xAxis)
+                .selectAll("text")
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", ".15em")
+                .attr("transform", "rotate(-30)");
+
+            svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(" + margin * 3 + ",0)")
+                .call(yAxis)
+        }
+
+
+        // Update chart when button is clicked
+        d3.selectAll(".button2").on("click", () => {
+            updatePath();
+        });
+
+    });
+
 // LINE GRAPH 3 =========================================
 //LOAD DATA
 d3.csv('../data/medianMonthlyRent.csv', d => {
