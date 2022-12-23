@@ -163,7 +163,7 @@ d3.csv('../data/LEPpopulation.csv', d => {
 
 // LINE GRAPH 2 =========================================
 //LOAD DATA
-d3.csv('../data/nativeUSPopulation.csv', d => {
+d3.csv('../data/nativeUSPopulation', d => {
     //https://data.cccnewyork.org/data/map/1258/citizenship#1258/205/3/1451/62/301/a
     return {
         year: new Date(+d.Year, 0, 1),
