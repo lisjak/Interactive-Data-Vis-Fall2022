@@ -1,7 +1,11 @@
+html {
+      scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
-    padding: 1em;
+    padding: 2em;
 }
 
 p {
@@ -51,7 +55,8 @@ h4 {
     /* border-bottom: 0.25em solid black; */
     /*  border-top: 0.25em solid black; */
     padding: 0.5%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    margin-top: 2%;
 }
 
 #title {
@@ -61,7 +66,7 @@ h4 {
 
 .infobox {
     border: 1px solid black;
-    box-shadow: 5px 5px 0 red;
+    box-shadow: 7px 7px 0 black, 15px 15px 0 red;
     margin-bottom: 2.5%;
     padding: 1%;
 }
@@ -74,6 +79,20 @@ h4 {
 #maptext {
     padding-left: 1%;
     padding-right: 1%;
+}
+
+#charttogether {
+    display: flex;
+    flex-direction: row;
+}
+
+#charttext {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#container7{
+  margin: 1%;
 }
 
 img {
@@ -90,4 +109,60 @@ img {
 
 .pic p {
     text-align: center;
+}
+
+button {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  padding: 2em;
+  border: 1px solid black;
+  background: whitesmoke;
+  padding: 10px;
+  margin: 1%;
+  transition: 0.5s;
+}
+
+button:hover {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  padding: 2em;
+  border: 1px solid red;
+  background: whitesmoke;
+  padding: 10px;
+  margin: 1%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+a {
+  color: red;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: black;
+transition: 0.5s;
+}
+
+ol,ul,li {
+  padding-left: 2%;
+}
+
+
+#footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 3%;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  position: absolute;
+  background-color: red;
+  margin-left: -2%;
+  padding: 0.5%;
+}
+
+sup {
+  font-size: 10px;
 }
